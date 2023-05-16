@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        p {
+	color: #f2f2f2;
+	padding: auto;
+	text-align: left;
+}
+    </style>
+    <meta charset='utf-8'>
+    <title>Status</title>
+</head>
+<body background="Img3.jpg" class="body_deg">
+    <center>
+        <div clas="form_deg">
+                   
+                   <h4>
+                    <?php
+
+                    error_reporting(0);
+                    session_start();
+                    session_destroy();
+
+                    echo $_SESSION['loginMessage'];
+
+
+                    ?>
+
+
+                        </h4>
+        </center>
+
+        <body background = "IMG4.jpg">
+            <div>
+                <p>Username : kalyan</p>    
+                <p>Email : kalyan@gmail.com</p>
+                <p>Phonenumber : 1234567890</p>  
+                <p>JobType : Data analyst</p>
+                <p>Skills : Data science</p>
+                <p>Qualifications : Btech</p>
+        </div>
+            <div>
+                <a href="adminhome.php">close</a>        
+            </div>
+
+
+
+        </form>
+
+        </div>
+
+
+
+    </center>
+    
+</body>
+</html>

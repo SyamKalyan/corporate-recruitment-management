@@ -1,0 +1,82 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin: 100px auto;
+    max-width: 400px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    color: #333333;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555555;
+  }
+
+  .form_deg {
+    padding-top: 200px;;
+}
+
+.label_deg{
+    display: inline-block;
+    color:white;
+    width: 100px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.login_form {
+    background-color: rgb(17, 94, 177);
+    width: 400px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.title_deg {
+    background-color: rgb(173, 199, 199);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.body_deg {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
